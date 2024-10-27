@@ -1,6 +1,12 @@
 {
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "type": "module"
+   "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
